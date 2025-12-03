@@ -146,3 +146,11 @@
             border-radius: 5px;
             text-align: center;
         }
+
+        .card {
+            background-color: coral-pink;
+            color: #ff7e8d;
+            padding: 15px;
+            margin: 20px 50px;
+            text-align: center;
+        }
