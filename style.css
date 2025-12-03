@@ -1,0 +1,148 @@
+    body {
+            font-family: Arial, Helvetica, sans-serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0c4c4;
+        }
+
+        .show-club-not-important {
+            background-color: #e7c1ac;
+            color: rgb(211, 108, 74);
+            outline: rgb(130, 96, 55) 2px solid;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            text-align: center;
+            align-items: center;
+            margin-right: 10px;
+   
+        }
+
+        .manual {
+            background-color: #3a277a;
+            color: rgb(171, 166, 243);
+            outline: rgb(196, 139, 215) 2px solid;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            text-align: center;
+            align-items: center;
+       ;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #672626;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #673681;
+            color: #ffffff;
+            border: 10.2 px solid #d57171;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .warf {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20px;
+        }
+
+        .container {
+            position: relative;
+            background-color: rgb(126, 32, 65);
+            color: white;
+            padding: 50px;
+            font-family: monospace;
+            font-size: 16px;
+            border: none;
+            text-align: center;
+        }
+
+        .navbar-investigate {
+            overflow: hidden;
+            padding: 10px 10px;
+            align-items: center;
+            position: relative;
+            color: rgb(34, 32, 80);
+            padding: 10px 10px;
+            font-size: 16px;
+            border: none;
+            text-align: center;
+            background-color: #d59589;
+
+        }
+
+        .material-selector {
+            margin-left: 500px;
+            margin-right: 100px;
+        }
+       
+        .container-navbar {
+            position: relative;
+            background-color: rgb(124, 122, 207);
+            color: white;
+            padding: 10px 10px;
+            font-size: 16px;
+            border: none;
+            text-align: center;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+
+        .container-navbar {
+        background-color: #d59589;
+        color: #0D1821;
+        overflow: hidden;
+        }
+
+        .container-navbar a {
+        float: left;
+        display: block;
+        background-color: #d59589;
+        color: #0D1821;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+        .container-navbar a:hover {
+        background-color: #af455c;
+        color: whitesmoke;
+        }
+
+        .container-navbar a.active {
+        background-color: #A7C6DA;
+        color: rgb(18, 14, 14);
+        }
+
+        .topnav .icon {
+        display: none;
+        }
+
+        .info-box {
+            background-color: #bfa1a1;
+            color: #3a277a;
+            padding: 15px;
+            margin: 20px 50px;
+            border: 2px solid #3a277a;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .club-info-box {
+            background-color: #6e62aa;
+            color: #ff7e8d;
+            padding: 15px;
+            margin: 20px 50px;
+            border: 2px solid #2c0e7d;
+            border-radius: 5px;
+            text-align: center;
+        }
