@@ -26,4 +26,5 @@ def calculate_average(e):
 
     # used the old skills test as a /ref
     # used internet as a ref 
+    # needs 2 .pys because the school clubs code is relatively difficult, accidentally deleted it multiple times when it was in thie document
 
