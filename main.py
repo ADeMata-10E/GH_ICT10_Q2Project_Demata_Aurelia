@@ -1,9 +1,8 @@
 from pyscript import display, document
 
 def calculate_average(e):
-    student_name = document.getElementById('name')
-    student_section = document.getElementById('section')
-    fname = f'{student_name} {student_section}'
+    student_name = document.getElementById('name').value
+    student_section = document.getElementById('section').value
 
     math = document.getElementById('math').value
     science = document.getElementById('science').value
@@ -27,7 +26,7 @@ def calculate_average(e):
         float(subjects[4]) * amount[2]) / 
         (amount[0] + amount[0] + amount[1] + amount[0] + amount[1] + amount[2]), 2)
 
-    message = f'''Hello, {fname}. Your general weighted average is {avg}%. Keep up the good work!'''
+    message = f'''Hello, {student_name} {student_section}. Your general weighted average is {avg}%. Keep up the good work!'''
     display(message, target='output')
 
     # used the old skills test as a /ref
