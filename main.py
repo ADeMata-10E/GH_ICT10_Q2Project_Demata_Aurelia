@@ -8,7 +8,7 @@ def calculate_average(e):
     math = document.getElementById('math').value
     sci = document.getElementById('science').value
     en = document.getElementById('english').value
-    ss = document.getElementById('history').value)
+    ss = document.getElementById('history').value
     art = document.getElementById('art').value
 
     document.getElementById('output').innerHTML = ''
