@@ -4,17 +4,17 @@ def calculate_average(e):
     student_name = document.getElementById('name')
     student_section = document.getElementById('section')
 
-    mathgrade = document.getElementById('M').value
-    sciencegrade = document.getElementById('S').value
-    englishgrade = document.getElementById('E').value
-    historygrade = document.getElementById('H').value)
-    artgrade = document.getElementById('A').value
+    math = document.getElementById('math').value
+    science = document.getElementById('science').value
+    english = document.getElementById('english').value
+    history = document.getElementById('history').value)
+    art = document.getElementById('art').value
 
     document.getElementById('output').innerHTML = ''
 
     #calculator
 
-    subjects = [math, sci, eng, history, art] #chosen subjects
+    subjects = [math, science, english, history, art] #chosen subjects
     amount = [5, 5, 5, 4, 1] #hours for each subject
 
     
