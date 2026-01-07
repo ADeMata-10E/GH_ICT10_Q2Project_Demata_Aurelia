@@ -3,11 +3,12 @@ from pyscript import display, document
 def calculate_average(e):
     student_name = document.getElementById('name')
     student_section = document.getElementById('section')
+    fname = f'{student_name} {student_section}'
 
     math = document.getElementById('math').value
-    science = document.getElementById('science').value
-    english = document.getElementById('english').value
-    history = document.getElementById('history').value)
+    sci = document.getElementById('science').value
+    en = document.getElementById('english').value
+    ss = document.getElementById('history').value)
     art = document.getElementById('art').value
 
     document.getElementById('output').innerHTML = ''
@@ -26,11 +27,8 @@ def calculate_average(e):
         float(subjects[5]) * amount[2]) / 
         (amount[0] + amount[0] + amount[1] + amount[0] + amount[1] + amount[2]), 2)
 
-    message = f'''Report Card Summary:  
-    Student Name: {student_name},  
-    Section: {student_section}, 
-    Your general weighted average is {avg}%.  
-    Keep up the good work!'''
+    message = (f'Hello, {fname}. Your general weighted average is {avg}%.  
+    Keep up the good work!')
     display('message', target='output')
 
     # used the old skills test as a /ref
