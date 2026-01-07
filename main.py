@@ -28,7 +28,7 @@ def calculate_average(e):
         (amount[0] + amount[0] + amount[1] + amount[0] + amount[1] + amount[2]), 2)
 
     message = f'''Hello, {fname}. Your general weighted average is {avg}%. Keep up the good work!'''
-    display('message', target='output')
+    display(message, target='output')
 
     # used the old skills test as a /ref
     # used internet as a ref 
