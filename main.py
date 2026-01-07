@@ -6,9 +6,9 @@ def calculate_average(e):
     fname = f'{student_name} {student_section}'
 
     math = document.getElementById('math').value
-    sci = document.getElementById('science').value
-    en = document.getElementById('english').value
-    ss = document.getElementById('history').value
+    science = document.getElementById('science').value
+    english = document.getElementById('english').value
+    history = document.getElementById('history').value
     art = document.getElementById('art').value
 
     document.getElementById('output').innerHTML = ''
