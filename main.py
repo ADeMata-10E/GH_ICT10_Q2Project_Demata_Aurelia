@@ -14,12 +14,22 @@ def calculate_average(e):
 
     #calculator
 
+    subjects = [math, sci, eng, history, art] #chosen subjects
+    amount = [5, 5, 5, 4, 1] #hours for each subject
+
     
+    avg = round((float(subjects[0]) * amount[0] +
+        float(subjects[1]) * amount[0] +
+        float(subjects[2]) * amount[1] +
+        float(subjects[3]) * amount[0] +
+        float(subjects[4]) * amount[1] +
+        float(subjects[5]) * amount[2]) / 
+        (amount[0] + amount[0] + amount[1] + amount[0] + amount[1] + amount[2]), 2)
 
     message = f'''Report Card Summary:  
     Student Name: {student_name},  
     Section: {student_section}, 
-    Your general weighted average is {average}%.  
+    Your general weighted average is {avg}%.  
     Keep up the good work!'''
     display('message', target='output')
 
