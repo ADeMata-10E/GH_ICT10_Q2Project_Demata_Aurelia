@@ -24,7 +24,7 @@ def calculate_average(e):
         float(subjects[2]) * amount[1] +
         float(subjects[3]) * amount[0] +
         float(subjects[4]) * amount[1] +
-        float(subjects[5]) * amount[2]) / 
+        float(subjects[4]) * amount[2]) / 
         (amount[0] + amount[0] + amount[1] + amount[0] + amount[1] + amount[2]), 2)
 
     message = f'''Hello, {fname}. Your general weighted average is {avg}%. Keep up the good work!'''
