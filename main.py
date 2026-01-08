@@ -26,8 +26,14 @@ def calculate_average(e):
         float(subjects[4]) * amount[2]) / 
         (amount[0] + amount[0] + amount[1] + amount[0] + amount[1] + amount[2]), 2)
 
+    if avg < 80
+        print('You passed!')
+    else
+        print('You failed.')
+
     message = f'''Hello, {student_name} {student_section}. Your general weighted average is {avg}%. Keep up the good work!'''
     display(message, target='output')
+    
 
     # used the old skills test as a /ref
     # used internet as a ref 
