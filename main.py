@@ -27,7 +27,7 @@ def calculate_average(e):
         float(subjects[4]) * amount[2]) / 
         (amount[0] + amount[0] + amount[1] + amount[0] + amount[1] + amount[2]), 2)
 
-    final = int(avg)
+    final = int(avg) #convert avg into integer
     
     if final > 75
         display(f'You passed!', target='output')
