@@ -27,9 +27,10 @@ def calculate_average(e):
         (amount[0] + amount[0] + amount[1] + amount[0] + amount[1] + amount[2]), 2)
 
     if avg < 80
-        print('You passed!')
-    else
-        print('You failed.')
+        display(f'You passed!', target='output')
+    else 
+        display(f'You failed', target='output')
+    
 
     message = f'''Hello, {student_name} {student_section}. Your general weighted average is {avg}%. Keep up the good work!'''
     display(message, target='output')
