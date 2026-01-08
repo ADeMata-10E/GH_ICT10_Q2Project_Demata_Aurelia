@@ -24,7 +24,8 @@ def calculate_average(e):
         float(subjects[3]) * amount[0] +
         float(subjects[4]) * amount[1] +
         float(subjects[4]) * amount[2]) / 
-        (amount[0] + amount[0] + amount[1] + amount[0] + amount[1] + amount[2], 2)
+        (amount[0] + amount[0] + amount[1] + amount[0] + amount[1] + amount[2]), 2)
+
 
     final = int(avg)
     
