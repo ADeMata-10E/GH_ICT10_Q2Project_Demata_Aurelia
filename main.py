@@ -29,7 +29,7 @@ def calculate_average(e):
 
     final = int(avg) #convert avg into integer
     
-    if final > 75
+    if final > 75: 
         display(f'You passed!', target='output')
     else 
         display(f'You failed', target='output')
