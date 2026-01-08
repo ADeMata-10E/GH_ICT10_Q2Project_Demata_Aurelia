@@ -4,12 +4,11 @@ def calculate_average(e):
     student_name = document.getElementById('name').value
     student_section = document.getElementById('section').value
 
-    document.getElementById('output').innerHTML = ''
-    math = document.getElementById('math').value
-    science = document.getElementById('science').value
-    english = document.getElementById('english').value
-    history = document.getElementById('history').value
-    art = document.getElementById('art').value
+    math = int(document.getElementById('math').value)
+    science = int(document.getElementById('science').value)
+    english = int(document.getElementById('english').value)
+    history = int(document.getElementById('history').value)
+    art = int(document.getElementById('art').value)
 
     document.getElementById('output').innerHTML = ''
 
@@ -26,8 +25,6 @@ def calculate_average(e):
         float(subjects[4]) * amount[1] +
         float(subjects[4]) * amount[2]) / 
         (amount[0] + amount[0] + amount[1] + amount[0] + amount[1] + amount[2]), 2)
-
-    final = int(avg) #convert avg into integer
     
     if final > 75: 
         display(f'You passed!', target='output')
